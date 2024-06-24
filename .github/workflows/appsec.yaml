@@ -5,4 +5,4 @@ on:
     branches:
       - main
   pull_request:
-    branches: ["develop", "feature"]
+    branches: ["develop", "feature/*", "release/**"]
