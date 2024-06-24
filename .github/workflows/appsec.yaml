@@ -3,4 +3,6 @@ name: Echo Hello World
 on:
   push:
     branches:
-      - main 
+      - main
+  pull_request:
+    branches: ["develop"]
